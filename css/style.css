@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+/*-------------------landing page-------------------------*/
+.header {
+    border-bottom-color: #fff;
+    font-family: "Exo", sans-serif;
+    color: #fff;
+    text-align: center;
+    background-color:#638a7e;
+    margin: 10;
+}
+/*------------------- footer -------------------------*/
+
+footer{
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    background-color:#638a7e;
+    color: #fafafa;
+    min-height: 150px;
+    margin: 0;
+}
+
+.socials{
+    padding-bottom: 10px;
+    text-align: center;
+ }
+.socials li a i{
+    padding: 10px 0;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    font-size: 18px;
+    line-height: 12px;
+    text-align:center;
+    color:#fafafa;
+    background-color:	rgb(245, 179, 12);
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+     
+}
+.socials li a i:hover{
+    transition: 1.5s;
+    background-color: 	rgb(15, 218, 233);
+}
+#about-us{
+    padding: 22px;
+}
+
+.uppercase{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+/*------------------- media queries-------------------------*/
+@media(min-width: 992px) {
+    h2 {
+        font-size: 2.2em;
+    }
+    h5 {
+        font-size: 1.8em;
+    }
+}
