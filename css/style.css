@@ -4,6 +4,7 @@
 /*-------------------landing page-------------------------*/
 .header {
     border-bottom-color: #fff;
+    text-shadow:  2px 2px rgb(245, 179, 12);
     font-family: "Exo", sans-serif;
     color: #fff;
     text-align: center;
@@ -52,6 +53,14 @@ footer{
   text-transform: uppercase;
   text-align: center;
 }
+
+#map{
+    min-height: 175px;
+    
+}
+
+
+
 
 
 /*------------------- media queries-------------------------*/
