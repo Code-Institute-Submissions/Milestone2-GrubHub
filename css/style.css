@@ -4,8 +4,10 @@
 /*-------------------landing page-------------------------*/
 .header {
     border-bottom-color: #fff;
-    text-shadow:  2px 2px rgb(245, 179, 12);
+    padding:30px;
+    text-shadow:  1px 1px rgb(245, 179, 12);
     font-family: "Exo", sans-serif;
+    font-size: 200em;
     color: #fff;
     text-align: center;
     background-color:#638a7e;
@@ -23,7 +25,6 @@ footer{
 }
 
 .socials{
-    padding-bottom: 10px;
     text-align: center;
  }
 .socials li a i{
@@ -43,25 +44,75 @@ footer{
 }
 .socials li a i:hover{
     transition: 1.5s;
-    background-color: 	rgb(15, 218, 233);
+    background-color: 	rgba(240, 52, 52, 1);
 }
-#about-us{
-    padding: 22px;
-}
+
 
 .uppercase{
   text-transform: uppercase;
   text-align: center;
 }
 
-#map{
-    min-height: 175px;
-    
+#location{
+    padding: 10px;
+    background-color:rgb(238, 181, 74);
+    vertical-align: middle;
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    font-size: 15px;
+
 }
 
+#map{
+    vertical-align: middle;
+    min-height: 300px;
+    width: 60%;
+    }
+.background{
+    background-image: url("../css/images/nando.jpg");
+        background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 100vh;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 
 
+}
 
+select {
+    border:1px solid #ccc;
+    vertical-align:center;
+    height:40px;
+}
+
+input {
+    border:1px solid #ccc;
+    vertical-align:center;
+    height:40px;
+}
+
+.copyright {
+    padding: 5px;
+    font-family: "Exo", sans-serif;
+    color: #fff;
+}
+
+#about-us {
+    padding-top: 8px;
+    padding-bottom: 0px;
+
+}
+
+a:visited{color: #ccc;}
 
 /*------------------- media queries-------------------------*/
 @media(min-width: 992px) {
