@@ -1,3 +1,6 @@
+// JavaScript code copied from Anthony Nicklin's excellent website for his MS2 project.
+// It has been changed and altered accordingly to fit my own requirements. 
+
 var map = "";
 var places, infoWindow;
 var markers = [];
@@ -10,7 +13,7 @@ var hostnameRegexp = new RegExp('^https?://.+?/');
 function initMap() {
    map = new google.maps.Map(document.getElementById('map'), {
   center: {lat:40.7128, lng:-74.0060},
-  zoom:13,
+  zoom:12,
   });
   infoWindow = new google.maps.InfoWindow({
     content: document.getElementById('info-content')
@@ -28,7 +31,6 @@ function initMap() {
     places = new google.maps.places.PlacesService(map);
     
    
-    
     autocomplete.addListener('place_changed', onPlaceChanged);
     
 
@@ -43,8 +45,9 @@ function onPlaceChanged() {
       map.panTo(place.geometry.location);
       map.setZoom(10);
     }
-  }
-    if (search_for == "hotel") {
+  }if (search_for == "blank") {
+      clearMarkers(['']);
+    }else if (search_for == "hotel") {
       searchPlaces(['lodging']);
     }else if (search_for == "restaurants") {
       searchPlaces(['restaurant']);
@@ -57,7 +60,7 @@ function onPlaceChanged() {
     }
     
     else {
-      document.getElementById("autocomplete").placeholder = "Enter a city";
+      document.getElementById("autocomplete").placeholder = "What do you want?";
     }
   }
   
@@ -154,9 +157,7 @@ function showInfoWindow() {
           document.getElementById('iw-phone-row').style.display = 'none';
         }
 
-        // Assign a five-star rating to the hotel, using a black star ('&#10029;')
-        // to indicate the rating the hotel has earned, and a white star ('&#10025;')
-        // for the rating points not achieved.
+  
         if (place.rating) {
           var ratingHtml = '';
           for (var i = 0; i < 5; i++) {
@@ -191,7 +192,6 @@ function showInfoWindow() {
       
 function searchPlaces(types) {
   var search = {
-    location : {lat:37.983810, lng:23.727539},
     radius : 5000,
     bounds : map.getBounds(),
     types : types

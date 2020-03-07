@@ -11,24 +11,21 @@
     
     <title>Grub Hub</title>
 </head>
-
 <body>
 <div class="header">
        <h1 style=font-size:70px>🍽 Grub Hub ✈</h1>
        <h3>What are you in the mood for today?</h3>
 </div>
-
     <div id = "location">
       <input id ="autocomplete" placeholder = "Where are you?" type = "text" />
-     <select id ="category">
-     <option value="">What do you want?</option>
+      <select id ="category">
+      <option value="blank">What do you want?</option>
       <option value="hotel">Hotel</option>
       <option value="restaurants">Restaurants</option>
       <option value="cafe">Cafes</option>
       <option value="takeaway">Takeaway</option>
       <option value="delivery">Delivery</option>
     </select>
-
     </div>
   <div class="background">  
       <div id="map"></div>
@@ -63,13 +60,7 @@
           </tr>
         </table>
       </div>
-    </div>
-            
-                       
-                     
-         
-
-    
+    </div> 
 <footer class="container-fluid">
       <div id="about-us" class="row">
         <div class="col-md-6">
@@ -108,22 +99,15 @@
                 </ul> 
         </div>
       </div>
-
-
                 <div class="copyright">
                     <a href="https://github.com/S-Perring/Milestone2-GrubHub" target="_blank">&copy;2020 Steve Perring</a>
                 </div>
-                
-
     </footer>
-
-
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="js/main.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjh09m4QHNxdX9dOfkunexZDdTuwzYsBE&callback=initMap&libraries=places"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
 </body>
 
 </html>
