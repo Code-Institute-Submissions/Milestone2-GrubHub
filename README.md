@@ -4,7 +4,7 @@ The website is designed to be an eating establishment search function linked to 
 
 ### **Functionality**
 
-The website is one page. It features a header with the wesbite name, a footer with details about the site and a central section which centres around the Google maps API. It enables the user to search based on their location and food preference. The location search function autofills to avoid user error when selecting their location and the eating establishment selection is a dropdown menu featuring 5 choices of venue type. The social media icons are linked to my social media pages and the copyright at the bottom is an anchor tag linked to the GitHub page. 
+The website is one page. It features a header with the website name, a footer with details about the site and a central section which centres around the Google maps API. It enables the user to search based on their location and food preference. The location search function autofill's to avoid user error when selecting their location and the eating establishment selection is a dropdown menu featuring 5 choices of venue type. The social media icons are linked to my social media pages and the copyright at the bottom is an anchor tag linked to the GitHub page. 
 
 ### **UX**
 
@@ -25,14 +25,14 @@ The primary and initial focus of the project is to provide a fast and efficient 
 + Javascript
 + JQuery
 + JSON
-+ Gitpod
++ GitPod
 + Git
 + GitHub
 + Google maps API
 + Google places API
 
 ### **Deployment**
-The website was created in Gitpod and deployed in GitHub pages. The website can be found here [https://s-perring.github.io/Milestone2-GrubHub/] The deployed site will update automatically as improvements and updates are pushed to the repository from the Gitpod coding platform. All coding and initial testing was completed in Gitpod. This platform was used to write the HTML, CSS and JavaScript code. The display and functionality were tested using Gitpod and Google developer tools. I used the following process to deploy written and tested code to my GitHub repository;
+The website was created in GitPod and deployed in GitHub pages. The website can be found here [https://s-perring.github.io/Milestone2-GrubHub/] The deployed site will update automatically as improvements and updates are pushed to the repository from the GitPod coding platform. All coding and initial testing was completed in GitPod. This platform was used to write the HTML, CSS and JavaScript code. The display and functionality were tested using GitPod and Google developer tools. I used the following process to deploy written and tested code to my GitHub repository;
 + git add .
 + git commit -m "description of update"
 + git push
@@ -40,7 +40,7 @@ The website was created in Gitpod and deployed in GitHub pages. The website can 
 In GitHub I changed the GitHub Pages option in settings to "Master Branch" to project the page from my repository.
 
 ### **Testing**
-Testing was carried out as the project build was ongoing. Using Gitpod and Google developer tools to test the look, feel and functionality of the project. During testing I added a media query to control the size of the map as it looked too small on larger screens. This suggestion came from my mentor. The website was tested on Chrome, IE, iPhone 6/7/8 and Samsung S5 as well as Google developer tools. The links were tested as well as the look and transformation of the presented site on the respective screen size/browser. I used regular pushes to the Git repository to ensure my work was saved and provide version control should it be necessary. During testing I used multiple CSS queries to provide the look and feel I wanted for all pages and to provide a consistency of font and colour scheme throughout the pages. I also used CSS to ensure the presentation of the images and forms provided a good UX experience for the user at all stages.
+Testing was carried out as the project build was ongoing. Using GitPod and Google developer tools to test the look, feel and functionality of the project. During testing I added a media query to control the size of the map as it looked too small on larger screens. This suggestion came from my mentor. The website was tested on Chrome, IE, iPhone 6/7/8 and Samsung S5 as well as Google developer tools. The links were tested as well as the look and transformation of the presented site on the respective screen size/browser. I used regular pushes to the Git repository to ensure my work was saved and provide version control should it be necessary. During testing I used multiple CSS queries to provide the look and feel I wanted for all pages and to provide a consistency of font and colour scheme throughout the pages. I also used CSS to ensure the presentation of the images and forms provided a good UX experience for the user at all stages.
 
 ### **Code Credits and Personal Credits**
 + I used Bootstrap and copied the code for this and the required JS at the bottom of the page to facilitate the functionality.
